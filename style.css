@@ -197,6 +197,7 @@ main {
   position: relative;
   margin-top: 80px;
 }
+
 .socials-find p::after {
   background: url("./assets/icons/main/social-find.png");
   background-repeat: no-repeat;
@@ -204,7 +205,7 @@ main {
   position: absolute;
   width: 100%;
   right: -115%;
-  top: 0;
+  top: 15px;
   height: 133px;
 }
 
@@ -244,5 +245,15 @@ main {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  gap: 240px;
+  gap: 205px;
+  margin: 20px 0 50px 0;
+}
+
+.social-name p {
+  color: var(--success-color);
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
