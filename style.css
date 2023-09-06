@@ -213,15 +213,18 @@ main {
   display: flex;
   align-items: center;
 }
+
 .main-right-side {
   position: absolute;
   right: 0;
 }
+
 .main-right-side .image-container {
   margin-left: auto;
   width: 80%;
   position: relative;
 }
+
 .main-right-side .image-container .plantright {
   position: absolute;
   bottom: 0;
@@ -230,6 +233,7 @@ main {
   right: 0;
   object-fit: contain;
 }
+
 .main-right-side .image-container::after {
   width: 100%;
   height: 200px;
@@ -256,4 +260,48 @@ main {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+/* Square-Section */
+
+.square {
+  background-color: #fff;
+}
+
+.square-flovers-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+  gap: 15px;
+}
+
+.square-flovers-title h3 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 52px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.square-flovers-title p {
+  color: #333;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 38px;
+  text-transform: lowercase;
+  width: 800px;
+}
+
+.square-flovers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: var(--current-color);
+  margin-top: 50px;
 }
