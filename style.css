@@ -203,7 +203,7 @@ main {
   content: "";
   position: absolute;
   width: 100%;
-  right: -100%;
+  right: -115%;
   top: 0;
   height: 133px;
 }
@@ -237,4 +237,12 @@ main {
   bottom: 0;
   right: 0;
   background: url("./assets/icons/main/plants.png");
+}
+
+.social-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 240px;
 }
