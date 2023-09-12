@@ -266,6 +266,17 @@ main {
 
 .square {
   background-color: #fff;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.square-flovers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 500px; */
+  /* background-color: var(--current-color); */
+  margin-top: 50px;
 }
 
 .square-flovers-title {
@@ -273,7 +284,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 100px;
   gap: 15px;
 }
 
@@ -296,12 +307,56 @@ main {
   width: 800px;
 }
 
-.square-flovers {
+.square-flovers-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 500px;
+  gap: 200px;
+}
+
+.square-flover-first-item {
   background-color: var(--current-color);
-  margin-top: 50px;
+  border-radius: 5px;
+  position: relative;
+  width: 500px;
+  margin: 200px 0;
+  /* height: 300px; */
+}
+
+.square-flover-item img {
+  position: absolute;
+  /* bottom: 125px; */
+  width: 90%;
+  margin: 0 auto;
+  top: -185px;
+  left: 0;
+  right: 0;
+}
+
+.square-flover-item-text {
+  padding: 190px 30px 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.square-flover-item-text h5 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.square-flover-item-text p {
+  color: #cdcdcd;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  /* text-transform: lowercase; */
+  padding-top: 20px;
+}
+
+.square-flover-second-item {
+  width: 400px;
 }
