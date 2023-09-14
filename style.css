@@ -316,16 +316,16 @@ main {
 
 .square-flover-first-item {
   background-color: var(--current-color);
-  border-radius: 5px;
+  border-radius: 10px;
   position: relative;
   width: 500px;
   margin: 200px 0;
   /* height: 300px; */
 }
 
-.square-flover-item img {
+.square-flover-first-item img {
   position: absolute;
-  /* bottom: 125px; */
+  bottom: 125px;
   width: 90%;
   margin: 0 auto;
   top: -185px;
@@ -358,5 +358,9 @@ main {
 }
 
 .square-flover-second-item {
+  background-color: var(--current-color);
+  border-radius: 10px;
+  position: relative;
+  margin: 200px 0;
   width: 400px;
 }
