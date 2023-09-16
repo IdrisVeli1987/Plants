@@ -320,7 +320,6 @@ main {
   position: relative;
   width: 500px;
   margin: 200px 0;
-  /* height: 300px; */
 }
 
 .square-flover-first-item img {
@@ -339,6 +338,12 @@ main {
   text-align: center;
 }
 
+.square-flover-item-text.item-2 {
+  padding: 0;
+  padding-top: 25px;
+  flex-direction: column;
+}
+
 .square-flover-item-text h5 {
   color: #fff;
   font-family: "Poppins";
@@ -353,7 +358,6 @@ main {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  /* text-transform: lowercase; */
   padding-top: 20px;
 }
 
@@ -361,6 +365,91 @@ main {
   background-color: var(--current-color);
   border-radius: 10px;
   position: relative;
-  margin: 200px 0;
-  width: 400px;
+  padding: 100px 20px 50px 20px;
+  max-width: 400px;
+}
+
+.square-flover-second-item img {
+  width: 250px;
+  position: absolute;
+  top: -43%;
+  left: 20%;
+}
+.square-flover-second-item .square-flover-item-text p {
+  font-size: 16px;
+}
+
+.square-flover-second-item .square-flover-item-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-flover-third-item {
+  background-color: var(--current-color);
+  max-width: 300px;
+  max-height: 300px;
+  position: relative;
+  border-radius: 10px;
+  padding: 50px 10px 30px 10px;
+}
+
+.square-flover-third-item img {
+  position: absolute;
+  bottom: 73%;
+  left: 10%;
+  width: 260px;
+  height: 200px;
+}
+
+.square-flover-item-text.item-3 {
+  padding: 0;
+  padding-top: 25px;
+  flex-direction: column;
+}
+
+.square-flover-item-text.item-3 h5 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.square-flover-item-text.item-3 p {
+  color: #cdcdcd;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  text-transform: capitalize;
+}
+
+/* Garden */
+.garden {
+  background-color: var(--current-color);
+  width: 100%;
+  height: 80vh;
+}
+
+.garden-with-images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.garden-left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.garden-left-side img {
+  border-radius: 50%;
+  width: 565px;
+  height: 730px;
 }
